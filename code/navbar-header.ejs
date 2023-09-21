@@ -1,0 +1,44 @@
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="/" class="nav__logo">NH Bid for NECYPAA</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <% if( page == "add" ) { %>
+                    <a href="/add"  class="nav__link active-link" >
+                    <% } else { %> 
+                    <a href="/add"  class="nav__link" >
+                    <% } %>
+                        <i class='bx bx-add-to-queue'></i>
+                        <span class="nav__name">Add</span>
+                    </a>
+                </li>
+                
+                <li class="nav__item">
+                    <% if( page == "necyverse" ) { %>
+                        <a href="/"  class="nav__link active-link" >
+                        <% } else { %> 
+                        <a href="/"  class="nav__link" >
+                        <% } %>
+                        <i class='bx bx-map'></i>
+                        <span class="nav__name">NECYVERSE</span>
+                    </a>
+                </li>
+                
+                <li class="nav__item">
+                    <% if( page == "vote" ) { %>
+                        <a href="/vote"  class="nav__link active-link" >
+                        <% } else { %> 
+                        <a href="/vote"  class="nav__link" >
+                        <% } %>
+                        <i class='bx bx-poll'></i>
+                        <span class="nav__name">Vote</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <img src="assets/img/perfil.png" alt="" class="nav__img">
+    </nav>
+    </header>
