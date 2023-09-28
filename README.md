@@ -10,7 +10,7 @@ Cross-platform applicaton that takes user submitted events and displays them on 
 <img src="https://github.com/mkostandin/mkostandin/blob/main/necyverse-gif.gif" style="display:block;margin:auto;" alt="NECYVERSE" width="60%"/>
 </p>
 
-<a href="https://wwww.bring-necypaa-to-nh.org">Live Demo</a>
+<a href="https://wwww.bring-necypaa-to-nh.org">NECYVERSE Live Demo</a>
 
 ## Features
 
