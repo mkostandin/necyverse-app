@@ -21,8 +21,8 @@ Cross-platform application that takes user-submitted events and displays them on
 
 
 ## 🔗 Store Links
-App Store
-Google Play Store
+[App Store](https://apps.apple.com/us/app/necyverse-nh-bid-for-necypaa/id6450375940)
+[Google Play Store](https://play.google.com/store/apps/details?id=org.bring_necypaa_to_nh.www.twa)
 Microsoft Store
 
 ## Tech Stack
