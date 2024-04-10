@@ -60,17 +60,16 @@ const mainRoutes = require("./routes/main.routes");
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 ```
-```
+``` ejs
 <%- include('includes/head', { pageTitle: 'NECYPAA | NH BID' }) %>
 <script type="module" src="javascript/mainMaps.js"></script>
 </head>
-<body>  
+  <body>  
   <%- include('includes/navbar-header', { page: "necyverse" }) %>
-   
-    <div id="map" class="map"></div>
+  <div id="map" class="map"></div>
     
   </body>
-  <%- include('includes/footer') %>
+<%- include('includes/footer') %>
 ```
 To deep link and be used as a PWA on Google Play, the asset link file needs to be in .well-known. This proves ownership of the PWA, and it changes from a PWA to a TWA, a trusted web application, which is published to the store.
 ``` javascript
