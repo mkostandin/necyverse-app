@@ -3,9 +3,6 @@
 
 A cross-platform application that takes user-submitted events and displays them on a map. 
 
-
-## Demo
-
 <p align="center">
 <img src="https://github.com/mkostandin/mkostandin/blob/main/necyverse-gif.gif" style="display:block;margin:auto;" alt="NECYVERSE" width="60%"/>
 </p>
