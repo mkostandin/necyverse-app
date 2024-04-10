@@ -60,6 +60,8 @@ const mainRoutes = require("./routes/main.routes");
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 ```
+
+EJS Template
 ``` ejs
 <%- include('includes/head', { pageTitle: 'NECYPAA | NH BID' }) %>
 <script type="module" src="javascript/mainMaps.js"></script>
