@@ -36,6 +36,7 @@ A collaborative map of YPAA events throughout New England
 ## Tech Stack
 
 - Google Maps Javascript API
+- Workbox
 - Javascript
 - Express.js
 - Node.js
