@@ -71,8 +71,12 @@ router.get("/calendar", mainController.getCalendarPage);
 
 ... ... ...
 ```
-In order to deep link and be used as a PWA on Google Play. The asset link file need to be in .well-known.
+To deep link and be used as a PWA on Google Play, the asset link file needs to be in .well-known. This proves ownership of the PWA, and it has been released to the store as TWA, a trusted web application.
 ``` javascript
+const serveIndex = require('serve-index');
+
+const express = require("express");
+
 app.use('/.well-known', express.static('.well-known'), serveIndex('.well-known'));
 app.use(express.static("public"));
 ```
