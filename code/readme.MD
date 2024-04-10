@@ -52,7 +52,7 @@ function animate(time) {
 ## Express Routing and Templates
 Express.js was used for Routing and Templating. Dynamic linking to events is being developed, and a dynamic route is created to view and share individual events using native device sharing. 
 
-EJS was used for templating. It allows the content for each page to be filled dynamically.
+EJS was used for view templating. It allows the content for each page to be filled dynamically ex { key: .
 
 ``` javascript
 const mainRoutes = require("./routes/main.routes");
