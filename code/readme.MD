@@ -1,4 +1,8 @@
+## Maps JavaScript API
 
+The Google Maps JavaScript API was used and advanced markers with WebGL 3D maps were used along with three.js for 3D animation
+
+### Info Windows
 ``` javascript
   const dfcContentString =
     "<style>" +
