@@ -77,7 +77,7 @@ router.get("/add", mainController.getAddPage);
 ... ... ...
 
 ```
-To deep link and be used as a PWA on Google Play, the asset link file needs to be in .well-known. This proves ownership of the PWA, and it has been released to the store as TWA, a trusted web application.
+To deep link and be used as a PWA on Google Play, the asset link file needs to be in .well-known. This proves ownership of the PWA, and it changes from a PWA to a TWA, a trusted web application, which is published to the store.
 ``` javascript
 const serveIndex = require('serve-index');
 
