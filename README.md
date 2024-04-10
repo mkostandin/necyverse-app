@@ -3,6 +3,24 @@
 
 A cross-platform application that takes user-submitted events and displays them on a map. 
 
+## Description
+A collaborative map of YPAA events throughout New England
+
+
+A recovery app that has the locations of YPAA events throughout New England.
+
+
+Find Events and Conferences
+
+Join Committees
+
+Explore YPAA Meetings
+
+Add to the Growing NECYVERSE
+
+
+Help the New Hampshire Bid for the New England Conference of Young People in Alcoholics Anonymous(NECYPAA) bring New England YPAA together and join the NECYVERSE!
+
 <p align="center">
 <img src="https://github.com/mkostandin/mkostandin/blob/main/necyverse-gif.gif" style="display:block;margin:auto;" alt="NECYVERSE" width="60%"/>
 </p>
