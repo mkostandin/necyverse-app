@@ -50,5 +50,6 @@ function animate(time) {
 ## EJS Templates
 
 ## Express.js
+Express.js was used for Routing and Templating. 
 
 ## Workbox and Service Worker for PWA - Stale Until Revalidation
