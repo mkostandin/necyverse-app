@@ -47,7 +47,6 @@ function animate(time) {
 <p align="center">
 <img src="https://github.com/mkostandin/mkostandin/blob/main/three-js.gif" style="display:block;margin:auto;" alt="three.js" width="50%"/>
 </p>
-## EJS Templates
 
 ## Express Routing and Templates
 Express.js was used for Routing and Templating. Dynamic linking to events is being developed, and a dynamic route is created to view and share individual events using native device sharing. 
