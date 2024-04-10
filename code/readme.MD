@@ -52,7 +52,7 @@ function animate(time) {
 ## Express Routing and Templates
 Express.js was used for Routing and Templating. Dynamic linking to events is being developed, and a dynamic route is created to view and share individual events using native device sharing. 
 
-EJS was used for view templating. It allows the content for each page to be filled dynamically ex { key: .
+EJS was used for view templating. It allows the content for each page to be filled dynamically ex { key: value }.
 
 ``` javascript
 const mainRoutes = require("./routes/main.routes");
@@ -60,22 +60,16 @@ const mainRoutes = require("./routes/main.routes");
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 ```
-
-``` javascript
-const express = require("express");
-
-const mainController = require("../controllers/main.controller");
-
-const router = express.Router();
-
-router.get("/", mainController.getMainPage);
-
-router.get("/committee-info", mainController.getCommitteeInfo);
-
-router.get("/add", mainController.getAddPage);
-
-... ... ...
-
+<%- include('includes/head', { pageTitle: 'NECYPAA | NH BID' }) %>
+<script type="module" src="javascript/mainMaps.js"></script>
+</head>
+<body>  
+  <%- include('includes/navbar-header', { page: "necyverse" }) %>
+   
+    <div id="map" class="map"></div>
+    
+  </body>
+  <%- include('includes/footer') %>
 ```
 To deep link and be used as a PWA on Google Play, the asset link file needs to be in .well-known. This proves ownership of the PWA, and it changes from a PWA to a TWA, a trusted web application, which is published to the store.
 ``` javascript
