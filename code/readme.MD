@@ -10,6 +10,17 @@ Advanced Markers were set up with HTML info windows. A combination of Cloudinary
 </p>
 
 ## Animation
+For the 3D animation when using the WebGL maps, Google recommended using Three.js, a JavaScript library for 3D animation.
+
+Import Library from CDN
+``` javascript
+import {
+  Easing,
+  Tween,
+  update,
+} from "https://cdnjs.cloudflare.com/ajax/libs/tween.js/19.0.0/tween.esm.js";
+```
+Set up camera options and Tween
 ``` javascript
  const newCameraOptions = {
     tilt: 50,
