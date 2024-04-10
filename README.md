@@ -21,10 +21,9 @@ Cross-platform applicaton that takes user submitted events and displays them on 
 
 
 ## 🔗 Store Links
-[![App](https://img.shields.io/badge/App_store-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/Google_PLAY-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-
+App Store
+Google Play Store
+Microsoft Store
 
 ## Tech Stack
 
