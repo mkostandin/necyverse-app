@@ -1,6 +1,6 @@
 ## Maps JavaScript API
 
-The Google Maps JavaScript API was used and advanced markers with WebGL 3D maps were used along with three.js for 3D animation.
+The Google Maps JavaScript API was used, and advanced markers with WebGL 3D maps were utilized along with three.js for 3D animation.
 
 ### Info Windows
 Advanced Markers were set up with HTML info windows. A combination of Cloudinary and AWS Cloud Front delivered images and video quickly to the user with minimal load times.
@@ -11,6 +11,9 @@ Advanced Markers were set up with HTML info windows. A combination of Cloudinary
 
 ## 3D Animation
 
+<p align="center">
+<img src="https://github.com/mkostandin/mkostandin/blob/main/three-js.gif" style="display:block;margin:auto;" alt="three.js" width="50%"/>
+</p>
 ## EJS Templates
 
 ## Express.js
