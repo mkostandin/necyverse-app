@@ -14,7 +14,7 @@ A cross-platform application that takes user-submitted events and displays them 
 <a href="https://youtu.be/cJE5qA_ihGk" target="_blank">Official Trailer</a>
 ## Features
 
-- Cross Platform
+- Cross-platform
 - User Submitted Content
 - 3D Map
 - Video
@@ -27,10 +27,12 @@ A cross-platform application that takes user-submitted events and displays them 
 
 ## Tech Stack
 
-**Client** Google Maps Javascript API, Vanilla
-
-**Server:** Node, Express
-
+- Google Maps Javascript API
+- Javascript
+- Express.js
+- Node.js
+- AWS Cloudfront
+- Cloudinary
 
 ## Related
 
