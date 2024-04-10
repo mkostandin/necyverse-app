@@ -71,6 +71,11 @@ router.get("/calendar", mainController.getCalendarPage);
 
 ... ... ...
 ```
+In order to deep link and be used as a PWA on Google Play. The asset link file need to be in .well-known.
+``` javascript
+app.use('/.well-known', express.static('.well-known'), serveIndex('.well-known'));
+app.use(express.static("public"));
+```
 ## Workbox and Service Worker
 
 For the PWA service worker, the caching strategy chosen was StaleWhileRevalidate. The cache offline version will be used unless the server has something newer, and then the cache is updated.
