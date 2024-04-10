@@ -1,7 +1,7 @@
 
 # NECYVERSE
 
-Cross-platform applicaton that takes user submitted events and displays them on a map
+Cross-platform application that takes user-submitted events and displays them on a map
 
 
 ## Demo
@@ -11,7 +11,7 @@ Cross-platform applicaton that takes user submitted events and displays them on 
 </p>
 
 <a href="https://www.bring-necypaa-to-nh.org" target="_blank">NECYVERSE Live Demo</a>
-
+<a href="https://youtu.be/cJE5qA_ihGk" target="_blank">Trailer</a>
 ## Features
 
 - Cross Platform
