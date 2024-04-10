@@ -49,7 +49,31 @@ function animate(time) {
 </p>
 ## EJS Templates
 
-## Express.js
-Express.js was used for Routing and Templating. 
+## Express Routing and Templates
+Express.js was used for Routing and Templating. Dynamic linking to events is being developed, and a dynamic route is created to view and share individual events using native device sharing.
 
-## Workbox and Service Worker for PWA - Stale Until Revalidation
+``` javascript
+const express = require("express");
+
+const mainController = require("../controllers/main.controller");
+
+const router = express.Router();
+
+router.get("/", mainController.getMainPage);
+
+router.get("/committee-info", mainController.getCommitteeInfo);
+
+router.get("/add", mainController.getAddPage);
+
+router.get("/list", mainController.getListPage);
+
+router.get("/calendar", mainController.getCalendarPage);
+
+... ... ...
+```
+## Workbox and Service Worker
+
+For the PWA service worker, the caching strategy chosen was StaleWhileRevalidate. The cache offline version will be used unless the server has something newer, and then the cache is updated.
+
+The Workbox library is imported by CDN
+``` javascript
