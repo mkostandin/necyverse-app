@@ -4,6 +4,11 @@ The Google Maps JavaScript API was used and advanced markers with WebGL 3D maps 
 
 ### Info Windows
 Markers were set up to have HTML and pictures or gifs. A combination of Cloudinary and AWS Cloud Front were used to deliver images and video fast to the user with minimal load times.
+
+
+<p align="center">
+<img src="https://github.com/mkostandin/mkostandin/blob/main/info-windows.gif" style="display:block;margin:auto;" alt="Info Windows" width="50%"/>
+</p>
 ``` javascript
   const dfcContentString =
     "<style>" +
