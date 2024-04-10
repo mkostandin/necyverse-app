@@ -50,7 +50,16 @@ function animate(time) {
 ## EJS Templates
 
 ## Express Routing and Templates
-Express.js was used for Routing and Templating. Dynamic linking to events is being developed, and a dynamic route is created to view and share individual events using native device sharing.
+Express.js was used for Routing and Templating. Dynamic linking to events is being developed, and a dynamic route is created to view and share individual events using native device sharing. 
+
+EJS was used for templating. It allows the content for each page to be filled dynamically.
+
+``` javascript
+const mainRoutes = require("./routes/main.routes");
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+```
 
 ``` javascript
 const express = require("express");
@@ -65,11 +74,8 @@ router.get("/committee-info", mainController.getCommitteeInfo);
 
 router.get("/add", mainController.getAddPage);
 
-router.get("/list", mainController.getListPage);
-
-router.get("/calendar", mainController.getCalendarPage);
-
 ... ... ...
+
 ```
 To deep link and be used as a PWA on Google Play, the asset link file needs to be in .well-known. This proves ownership of the PWA, and it has been released to the store as TWA, a trusted web application.
 ``` javascript
