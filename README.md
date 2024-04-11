@@ -18,7 +18,7 @@ A collaborative map of YPAA events throughout New England
 <img src="https://github.com/mkostandin/mkostandin/blob/main/necyverse-gif.gif" style="display:block;margin:auto;" alt="NECYVERSE" width="60%"/>
 </p>
 
-<a href="https://www.bring-necypaa-to-nh.org" target="_blank">Live Demo</a> <br>
+<a href="https://nh-bid-conference-dash.store/" target="_blank">Live Demo</a> <br>
 <a href="https://youtu.be/cJE5qA_ihGk" target="_blank">Official Trailer</a>
 ## Features
 
