@@ -81,20 +81,3 @@ const express = require("express");
 app.use('/.well-known', express.static('.well-known'), serveIndex('.well-known'));
 app.use(express.static("public"));
 ```
-## Offline PWA/Service Worker
-
-For the PWA service worker, the caching strategy chosen was StaleWhileRevalidate. The cached offline version will be used unless the server has something newer, and then the cache is updated. This allows for a snappy application that will just look at the server to see if the service worker version has changed.
-
-Worbox was used because it simplifies the generation of service workers and the implementation of caching strategies.
-``` javascript
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
-);
-
-self.addEventListener('fetch', event => {
-  if (event.request.url.endsWith('.png')) {
-    const cacheFirst = new workbox.strategies.StaleWhileRevalidate();
-    event.respondWith(cacheFirst.handle({request: event.request}));
-  }
-});
-```
