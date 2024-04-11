@@ -85,7 +85,7 @@ app.use(express.static("public"));
 
 For the PWA service worker, the caching strategy chosen was StaleWhileRevalidate. The cached offline version will be used unless the server has something newer, and then the cache is updated. This allows for a snappy application that will just look at the server to see if the service worker version has changed.
 
-The Workbox library is imported by CDN
+A work box was used because it simplifies the generation of service workers and the implementation of caching strategies. It is imported here by CDN
 ``` javascript
 importScripts(
   'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
